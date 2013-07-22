@@ -8,12 +8,13 @@
     <file path="/Gemfile" changelist="3ceb77dd-a19f-4523-870b-50eaa6d9a252" time="1374344284028" ignored="false" />
     <file path="/right.txt" changelist="3ceb77dd-a19f-4523-870b-50eaa6d9a252" time="1374502318019" ignored="false" />
     <file path="/left.txt" changelist="3ceb77dd-a19f-4523-870b-50eaa6d9a252" time="1374502221020" ignored="false" />
-    <file path="/diff.rb" changelist="3ceb77dd-a19f-4523-870b-50eaa6d9a252" time="1374503070318" ignored="false" />
-    <file path="/side_diff.rb" changelist="3ceb77dd-a19f-4523-870b-50eaa6d9a252" time="1374503068463" ignored="false" />
+    <file path="/diff.rb" changelist="3ceb77dd-a19f-4523-870b-50eaa6d9a252" time="1374507598853" ignored="false" />
+    <file path="/side_diff.rb" changelist="3ceb77dd-a19f-4523-870b-50eaa6d9a252" time="1374507492501" ignored="false" />
     <file path="/application_controller.rb" changelist="3ceb77dd-a19f-4523-870b-50eaa6d9a252" time="1374503124443" ignored="false" />
     <file path="/routes.rb" changelist="3ceb77dd-a19f-4523-870b-50eaa6d9a252" time="1374503110390" ignored="false" />
     <file path="/diff.html.erb" changelist="3ceb77dd-a19f-4523-870b-50eaa6d9a252" time="1374503708826" ignored="false" />
     <file path="/application.css" changelist="3ceb77dd-a19f-4523-870b-50eaa6d9a252" time="1374503682570" ignored="false" />
+    <file path="/README.rdoc" changelist="3ceb77dd-a19f-4523-870b-50eaa6d9a252" time="1374507023864" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,10 +43,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="left.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="left.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/left.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="3" selection-start="187" selection-end="187" vertical-scroll-proportion="0.18404908">
+            <state line="12" column="3" selection-start="187" selection-end="187" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="35" selection-start="520" selection-end="520" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -60,10 +70,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="side_diff.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="side_diff.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/models/side_diff.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="4" selection-start="462" selection-end="462" vertical-scroll-proportion="0.0">
+            <state line="26" column="67" selection-start="444" selection-end="444" vertical-scroll-proportion="0.45454547">
               <folding />
             </state>
           </provider>
@@ -131,17 +141,18 @@
         <option value="$PROJECT_DIR$/public/left.rb" />
         <option value="$PROJECT_DIR$/app/models/diff.rb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
-        <option value="$PROJECT_DIR$/app/models/side_diff.rb" />
         <option value="$PROJECT_DIR$/app/controllers/application_controller.rb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/application.css" />
         <option value="$PROJECT_DIR$/app/views/application/diff.html.erb" />
+        <option value="$PROJECT_DIR$/README.rdoc" />
+        <option value="$PROJECT_DIR$/app/models/side_diff.rb" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="22" />
     <option name="width" value="1920" />
-    <option name="height" value="1103" />
+    <option name="height" value="983" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -619,7 +630,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1920" height="1103" extended-state="6" />
+    <frame x="0" y="22" width="1920" height="983" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -759,13 +770,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/side_diff.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="4" selection-start="462" selection-end="462" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="16" column="11" selection-start="582" selection-end="582" vertical-scroll-proportion="0.0">
@@ -789,7 +793,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/left.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="3" selection-start="187" selection-end="187" vertical-scroll-proportion="0.18404908">
+        <state line="12" column="3" selection-start="187" selection-end="187" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="35" selection-start="520" selection-end="520" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/side_diff.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="67" selection-start="444" selection-end="444" vertical-scroll-proportion="0.45454547">
           <folding />
         </state>
       </provider>
