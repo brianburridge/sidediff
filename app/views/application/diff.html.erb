@@ -1,0 +1,17 @@
+<div class="diff">
+<table>
+  <% @lines.each do |line| %>
+  <tr class="<%= cycle("odd", "even") %>">
+    <td><%= line.old_position + 1 if line.old_element %></td>
+    <td class="<%= 'changed' if line.old_element != line.new_element %>">
+      <pre><%= line.old_element %></pre>
+    </td>
+    <td><%= line.new_position + 1 if line.new_element %></td>
+    <td class="<%= 'changed' if line.old_element != line.new_element %>">
+      <pre><%= line.new_element %></pre>
+    </td>
+
+  </tr>
+ <% end %>
+</table>
+</div>
