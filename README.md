@@ -6,7 +6,7 @@ The app uses the [Diff LCS Gem](https://github.com/halostatue/diff-lcs) for the 
 
 Currently the prototype compares two local files.
 
-The CSS/HTML was first prototype out on [Codepen](http://codepen.io/bburridge/pen/vxIBH).
+The CSS/HTML was first prototyped within a pen on [Codepen](http://codepen.io/bburridge/pen/vxIBH).
 
 == Next Steps
 
