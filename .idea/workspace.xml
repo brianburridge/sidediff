@@ -35,19 +35,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="left.txt" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="left.txt" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/left.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="55" selection-start="55" selection-end="55" vertical-scroll-proportion="0.0">
+            <state line="0" column="0" selection-start="0" selection-end="56" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="right.txt" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="right.txt" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/right.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="38" selection-start="38" selection-end="38" vertical-scroll-proportion="0.0">
+            <state line="1" column="0" selection-start="56" selection-end="56" vertical-scroll-proportion="0.015337423">
               <folding />
             </state>
           </provider>
@@ -74,8 +74,8 @@
       <list>
         <option value="$PROJECT_DIR$/config/database.yml" />
         <option value="$PROJECT_DIR$/Gemfile" />
-        <option value="$PROJECT_DIR$/public/right.txt" />
         <option value="$PROJECT_DIR$/public/left.txt" />
+        <option value="$PROJECT_DIR$/public/right.txt" />
       </list>
     </option>
   </component>
@@ -531,16 +531,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/right.txt">
+    <entry file="file://$PROJECT_DIR$/public/left.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="38" selection-start="38" selection-end="38" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="56" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/left.txt">
+    <entry file="file://$PROJECT_DIR$/public/right.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="55" selection-start="55" selection-end="55" vertical-scroll-proportion="0.0">
+        <state line="1" column="0" selection-start="56" selection-end="56" vertical-scroll-proportion="0.015337423">
           <folding />
         </state>
       </provider>
